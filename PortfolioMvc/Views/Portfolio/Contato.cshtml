@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Contato";
+}
+
+<a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMSqXbdccDWjzcqQmDLDwgFDLczJwbdNbJBvJFBbvSmndgxFMclZJQQLkbDbzzQXMgKsflX" target="_blank">
+    <img src="~/imagens/gmail.png" width="50" height="50">
+</a>
+
+<a href="https://www.linkedin.com/in/eduardoaalmeidaa/" target="_blank">
+    <img src="~/imagens/linkedin.png" width="50" height="50">
+</a>
+
+<a href="https://api.whatsapp.com/send/?phone=5562982683334&text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20portfolio%20e%20gostaria%20de%20falar%20com%20voc%C3%AA!" target="_blank">
+    <img src="~/imagens/whatsapp.png" width="50" height="50">
+</a>
+
+<h1>Contact Form</h1>
+
+<form asp-controller="Portfolio" asp-action="Contato">
+    <div class="mb-3">
+        <label for="nome" class="form-label">Name</label>
+        <input type="text" class="form-control" id="nome" name="nome" placeholder="Enter the name" />
+    </div>
+
+    <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="name@email.com" />
+    </div>
+
+    <div class="mb-3">
+        <label for="mensagem" class="form-label">Message</label>
+        <textarea class="form-control" id="mensaje" name="mensagem" rows="4"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Send</button>
+</form>

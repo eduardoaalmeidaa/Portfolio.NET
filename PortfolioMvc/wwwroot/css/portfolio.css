@@ -1,0 +1,123 @@
+﻿.principal {
+    background-image: url("/imagens/capa.gif");
+    background-color: white;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+#bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white
+}
+
+#foto {
+    width: 200px;
+    margin: 1rem 0;
+    border-radius: 50%;
+}
+
+.secao-bemvindo {
+    margin: 5rem 0 10rem 0;
+    color: black;
+}
+
+.secao-bemvindo h1 {
+    margin-bottom: 0.5rem;
+}
+
+.secao-bemvindo p {
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 1.20rem;
+}
+
+#imagem-dotnet {
+    width: 400px;
+}
+
+.cabecalho {
+    font-weight: bold;
+}
+
+.experiencia ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.experiencia i {
+    color: #0d6efd;
+    font-size: 50px;
+}
+
+#footer {
+    background: #f7f7f7;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#footer .socials-media ul {
+      display: inline-block;
+      float: none;
+      margin: 0 0 25px 0;
+}
+
+#footer .socials-media ul li {
+      float: left;
+      margin-left: 20px;
+      margin-right: 20px;
+}
+
+.credits {
+    font-size: 15px;
+}
+
+.timelinee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+    .containerr img {
+        background-color: var(--second-color);
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        top: 32px;
+        margin: 2rem;
+    }
+
+.text-boxx {
+    padding: 20px;
+    background: var(--bg-color);
+    border-radius: 10px;
+    color: var(--text-color);
+    width: 60vw;
+}
+
+    .text-boxx h5 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 14px;
+    }
+
+    .text-boxx small {
+        font-size: 14px;
+        font-weight: 800;
+    }
+
+    .text-boxx p {
+        letter-spacing: 1px;
+        line-height: 1.8;
+        font-size: var(--p-font);
+        margin: 1rem 0;
+    }
